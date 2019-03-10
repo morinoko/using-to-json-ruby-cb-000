@@ -31,7 +31,7 @@ class PostsController < ApplicationController
     redirect_to post_path(@post)
   end
 
-  # Not need after setting the show action up to serve up data in JSON format
+  # Not needed after setting the show action up to serve up data in JSON format
   # def post_data
   #   post = Post.find(params[:id])
   #   render json: post.to_json(only: [:title, :description, :id],
